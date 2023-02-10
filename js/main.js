@@ -1,10 +1,8 @@
 
- $('.slider-for').slick({
-    
+ $('.your-class').slick({
   arrows: false,
-  fade: true,
-  asNavFor: '.your-class'
-});
-$('.your-class').slick({
-  asNavFor: '.slider-for',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1800,
 });

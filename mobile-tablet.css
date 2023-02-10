@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+    header {
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    nav {
+        font-size: 85%;
+        gap: 70px;
+    }
+    .logo {
+        width: 42%;   
+    }
+    .titulo {
+        gap: 35px;
+        margin-bottom: 80px;
+    }
+    h2 {
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: 10px;
+    }
+    .titulo span {
+        border: 2px solid #7323D8;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .your-class{
+        max-width:95%;
+	    height: fit-content;
+    }
+    .your-class div {
+        width: 728px;
+        height:auto;
+    }
+    .item img {
+        max-width:728px;
+	    height:auto;
+    }
+    .footer-1 {
+        justify-content: center;
+        align-items: center;
+    }
+    #sobrenos {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #portifolio {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    footer {
+        margin-top: 120px;
+    }
+    .footer-1 {
+        width: 728px;
+    }
+    .cards {
+        gap: 90px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 450px;
+        gap: 55px;
+        border: 2px solid #7323D8;
+        padding: 15px;
+        border-radius: 15px;
+        padding-bottom: 35px;
+    }
+    .logo-card {
+        width: 8%;
+    }
+    .foto-card {
+        width: 30%;
+    }
+    .nome {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 6px;
+    }
+    .profissao {
+        font-size: 10px;
+    }
+    .descricao {
+        font-size: 12px;
+    }
+    #portifolio {
+        margin-top: 120px;
+    }
+    .chamada {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    h3 {
+        color: #7323D8;
+        font-size: 35px;
+        font-weight: 600;
+        letter-spacing: 10px;
+    }
+    .contatos {
+        display: flex;
+        gap: 50px;
+    }
+    .contato-titulo {
+        border: 2px solid #7323D8;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .icones {
+        width: 22px;
+    }
+    .icone-contato {
+        font-size: 15px;
+    }
+    #contatos-1-mod {
+        align-items: end;
+    }
+}
