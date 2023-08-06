@@ -222,4 +222,10 @@ h3 {
 }
 .icone-contato {
     font-size: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.icone-contato img{
+    margin-right: 10px;
 }
